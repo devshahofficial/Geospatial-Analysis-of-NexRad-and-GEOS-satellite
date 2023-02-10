@@ -1,1 +1,0 @@
-# Using great expectations to validate the data scrapped for GOES and Nexrad.
