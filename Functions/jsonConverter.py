@@ -1,6 +1,6 @@
 """
 This script implements a process to convert the metadata obtained from a
-specified S3 bucket into a structured and hierarchical Json representation.
+specified S3 bucket into a structured and hierarchical JSON representation.
 """
 
 
