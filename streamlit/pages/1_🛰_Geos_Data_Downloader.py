@@ -130,14 +130,19 @@ def search_by_path():
 
     st.write("You selected:", file)
     download_btn = st.button("Download File")
-    log_df = pd.DataFrame(columns=['filename','time'])
+
+    if 'log_df' not in st.session_state:
+        st.session_state['log_df'] = pd.DataFrame(columns=['filename','time'])
+
     if download_btn:
         download_file(file,path)
-        log_df = log_df.append({'filename':file,'time':datetime.datetime.now()},ignore_index=True)
-        st.dataframe(log_df)
+        st.session_state['log_df'] = st.session_state['log_df'].append({'filename':file,'time':datetime.datetime.now()},ignore_index=True)
+        
+    st.dataframe(st.session_state['log_df'])
 
 connection = sqlite3.connect("../streamlit/meta_data.db")
 cursor = connection.cursor()
+
 
 st.write("# GEOS Satellite Data Downloader 🛰")
 search_method = st.selectbox(
