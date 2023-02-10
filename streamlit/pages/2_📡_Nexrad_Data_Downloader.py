@@ -1,12 +1,9 @@
 import streamlit as st
 import pandas as pd
 import boto3
-import time
 import sqlite3
 import webbrowser
-import datetime 
-import s3fs
-import os
+import datetime
 import io
 
 # function to transfer files between two AWS buckets and create a download link 
