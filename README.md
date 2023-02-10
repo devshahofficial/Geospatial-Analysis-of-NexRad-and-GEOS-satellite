@@ -8,8 +8,8 @@ This dataset was produced using freely accessible NOAA datasets, such as those f
 <br>
 
 Dataset: <br>
-* GOES - [link][https://registry.opendata.aws/noaa-goes/]
-* NEXRAD - [link][https://registry.opendata.aws/noaa-nexrad/]
+* GOES - [https://registry.opendata.aws/noaa-goes/]
+* NEXRAD - [https://registry.opendata.aws/noaa-nexrad/]
 
 
 ![sevir_sample](https://user-images.githubusercontent.com/114712818/218191862-49f8f32b-bc77-4e03-ae81-9ebac16b514a.gif)
@@ -38,12 +38,12 @@ Dataset: <br>
 <br>
 
 ## LEARNINGS/TECH USED
-Streamlit
-AWS
-SQLite
-Great-Expectations
-Documentation on Codelabs
-Pytest
+Streamlit<br>
+AWS<br>
+SQLite<br>
+Great-Expectations<br>
+Documentation on Codelabs<br>
+Pytest<br>
 Git (Version Control)
 
 
