@@ -1,5 +1,6 @@
 # User Defined
 great-expectations/venv_ge
+ge/venv_ge
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
